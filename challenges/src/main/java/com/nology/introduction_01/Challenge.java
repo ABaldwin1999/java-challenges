@@ -21,8 +21,8 @@ public class Challenge {
      * @return returns the larger of the 2 numbers passed as paramters
      */
     public int findLargestNumber(int num1, int num2) {
-        // Write your solution here
-        return -1;
+        int largestNumber = (num1>num2) ? num1 : num2;
+        return largestNumber;
     }
 
     /***
@@ -33,7 +33,14 @@ public class Challenge {
      * @return returns the larger of the 2 strings or "These two are the same length!" if they are of equal length
      */
     public String findLongestString(String string1, String string2) {
-        return "";
+       String longestString = "";
+                if(string1.length()==string2.length()){
+                    longestString = "These two are the same length!";
+                }
+                else{
+                    longestString = (string1.length()>string2.length()) ? string1 : string2;
+                }
+        return longestString;
     }
 
     /**
@@ -45,8 +52,8 @@ public class Challenge {
      * @return returns the price with the discount applied
      */
     public double getDiscount(double price, double discount) {
-        // Extra Challenge: How would this change if price & discount were int types?
-        return -1;
+         double itemDiscount = price*(1-(discount/100));
+        return itemDiscount;
     }
 
     // -------------- INTERMEDIATE --------------
@@ -61,7 +68,10 @@ public class Challenge {
      * @return a boolean to specify whether the 2 params match to 4 decimal places.
      */
     public boolean compareTwoNumbers(double num1, double num2) {
-        return true;
+        int number1 = (int) num1*1000;
+        int number2 = (int) num1*1000;
+        boolean match = number1==number2 ? true : false;
+        return match;
     }
 
     /***

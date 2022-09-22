@@ -22,7 +22,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a6e4d6c-01b5-4b45-b739-e8892f179ad5" name="Default Changelist" comment="" />
+    <list default="true" id="2a6e4d6c-01b5-4b45-b739-e8892f179ad5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/challenges.iml" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/challenges.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/src/main/java/com/nology/arraysloops_04/Challenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/src/main/java/com/nology/arraysloops_04/Challenge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/src/main/java/com/nology/classes_03/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/src/main/java/com/nology/classes_03/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/src/main/java/com/nology/controlflow_02/Challenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/src/main/java/com/nology/controlflow_02/Challenge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/src/main/java/com/nology/introduction_01/Challenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/src/main/java/com/nology/introduction_01/Challenge.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +46,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1sLm1KFcLtvJwJ7zLwgS0Hxx9oz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,22 +57,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/challenges" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.30628273" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/samue/puffin/Java/java-challenges",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.nology" />
@@ -131,7 +135,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -21,7 +21,7 @@ public class Challenge {
      * @return a new array containing the first and last items in the given array e.g. ["Ollie", "Bex"]
      */
     public String[] getFirstAndLast(String[] namesArr) {
-        return new String[0];
+        return new String[namesArr[0],namesArr[namesArr.length-1]];
     }
 
     /***
@@ -31,7 +31,13 @@ public class Challenge {
      * @return an amount e.g. 104
      */
     public int totalAges(int[] agesArr) {
-        return -1;
+        int totalAge =0;
+        int currentAge =0;
+        for (int i = 0; i < agesArr.length; i++) {
+            totalAge = currentAge + agesArr[i];
+            currentAge=totalAge;
+        }
+        return totalAge;
     }
 
     /***
@@ -41,7 +47,14 @@ public class Challenge {
      * @return Amount of odd numbers e.g. 3
      */
     public int getAmountOfOddNumbers(int[] numbersArr) {
-        return -1;
+        int count =0;
+        for (int i = 0; i < numbersArr.length; i++) {
+            if((numbersArr[i]%2).toequals(!0)){
+                count++
+            }
+        }
+
+        return count;
     }
 
     // -------------- INTERMEDIATE --------------
@@ -57,7 +70,12 @@ public class Challenge {
      * @return a new array of all numbers between and including the min and max number. e.g. [3, 4, 5, 6]
      */
     public int[] getRange(int min, int max) {
-        return new int[] {};
+        int [] range = int[max-min];
+        for (int i = 0; i < (max-min); i++) {
+            range[i]=min+i;
+        }
+
+        return range;
     }
 
     /**
@@ -66,7 +84,7 @@ public class Challenge {
      * @return a string with the last name, followed by the first name e.g. "Evans Andy"
      */
     public String swapNames(String fullName) {
-        return "";
+        return fullName.split(" ")[1]+" " fullName.split(" ")[0];
     }
 
     /***
@@ -80,6 +98,9 @@ public class Challenge {
      * @return true or false depending on whether the newScore is the highest value in the array
      */
     public boolean isHighestScore(int[] scoresArr, int newScore) {
+        for (int i = 0; i < scoresArr.length ; i++) {
+            (newScore<scoresArr[i])? return true:;
+        }
         return false;
     }
 
@@ -102,7 +123,17 @@ public class Challenge {
      * @param numbersArr - array of numbers e.g. [5, 1, 4, 2, 8]
      * @return The sorted array of numbers e.g. [1, 2, 4, 5, 8]
      */
-    public int[] sort(int[] numbersArr) {
+    public int[] sortint[] numbersArr) {
+        for (int j = 0; j < ; j++) {
+            for (int i = 0; i < numbersArr.length - 1; i++) {
+                if (numbersArr[j] < numbersArr[i + 1]) {
+                    int replace0 = numbersArr[j];
+                    int replace1 = numbersArr[i + 1];
+                    numbersArr[j] = replace1;
+                    numbersArr[i + 1] = replace0;
+                }
+            }
+        }
         return new int[] {};
     }
 
